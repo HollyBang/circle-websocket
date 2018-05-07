@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.scene {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.circle {
+    border-radius: 50%;
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transition: all 5s;
+    left: -100px;
+    
+}
+.anim {
+
+}
